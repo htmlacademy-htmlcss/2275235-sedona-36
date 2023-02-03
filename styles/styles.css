@@ -36,6 +36,14 @@ p {
   text-decoration: none;
   text-align: center;
 }
+.want {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+}
 .main-index{
   font-size: 18px;
   line-height: 21px;
@@ -171,13 +179,107 @@ background-color: #82B3D3;
   font-size: 40px;
   line-height: 40px;
 }
-/* Каталог */
-.inner-header-title {
-  font-size: 30px;
-  line-height: 36;
+.main-inner {
+  font-size: 18px;
+  line-height: 21px;
+}
+.accommodations {
   background-image: url("/images/background/background-2.jpg");
   background-repeat: no-repeat;
-  background-size: 100%  auto;
+  background-size: cover;
   text-align: center;
+  font-size: 18px;
+  line-height: 23px;
   color: #ffffff;
+}
+.inner-header-title {
+font-size: 60px;
+line-height: 78px;
+font-weight: 700;
+}
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+.accomodations-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+.accomodation-btn {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+.accomodation-btn-reset {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.search-result-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.search-result-hotel {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+.search-result-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.button-search-result {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #756157;
+  text-decoration: none;
+}
+.button {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+.rating-text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #F2F2F2;
+  text-transform: uppercase;
+}
+.pagination {
+  background-color: #ffffff;
+}
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+}
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
 }
