@@ -16,15 +16,14 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  color: #000000;;
-  background: #ffffff;
-}
-p {
   color: #333333;
+  background-color: #F2F2F2;
+}
+.content {
+  background-color: #ffffff;
 }
 .page-header {
   color: #000000;
-  background-color: #ffffff;
 }
 .navigation-link {
   font-size: 20px;
@@ -32,7 +31,6 @@ p {
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
-  text-transform: capitalize;
   text-decoration: none;
   text-align: center;
 }
@@ -47,7 +45,6 @@ p {
 .main-index{
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
   text-align: center;
 }
 .about {
@@ -55,14 +52,17 @@ p {
   background-repeat: no-repeat;
   background-size: 100%  auto;
   background-color: #82B3D3;
-  text-align: center;
 }
 .remake {
-  text-align: center;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.gray {
+  color: #333333;
+  font-size: 22px;
+  line-height: 26px;
 }
 .advantages-list {
   text-align: center;
@@ -71,16 +71,23 @@ p {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
-.index-columns {
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
+.center-advantages-title {
+  color: #000000;
+}
+.turquoise-advantages-item {
   background-color: #82B3D3;
 }
-.advantages-description {
-color: inherit;
+.turquoise-advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.turquoise-advantages-description {
+  color: #ffffff;
 }
 .advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
@@ -91,14 +98,13 @@ color: inherit;
 .center-advantages-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 .lover-advantages-item {
   background-color: #ffffff;
 }
 .lover-advantages-title {
-  font-weight: 700;
+  color: #000000;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -114,7 +120,7 @@ color: inherit;
 .features-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 .lover-features-item {
@@ -123,12 +129,13 @@ color: inherit;
 .lover-features-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 .services-title {
   font-size: 30px;
   line-height: 36px;
+  color: #000000;
   text-transform: uppercase;
 }
 .services-text {
@@ -179,6 +186,9 @@ background-color: #82B3D3;
   text-decoration: none;
 }
 .footer-contacts-phone {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
   text-decoration: none;
   color: #000000;
 }
