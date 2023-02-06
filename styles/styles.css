@@ -16,28 +16,23 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  align-items: center;
   color: #333333;
   background-color: #F2F2F2;
 }
 .content {
   background-color: #ffffff;
 }
-.page-header {
-  color: #000000;
-}
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
-  text-align: center;
 }
 .want {
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
@@ -57,15 +52,13 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 .gray {
   color: #333333;
   font-size: 22px;
   line-height: 26px;
-}
-.advantages-list {
-  text-align: center;
 }
 .advantages-title {
   font-size: 24px;
@@ -114,7 +107,6 @@ body {
   line-height: 26px;
 }
 .features {
-
   background-color: rgba(131, 179, 211, 0.12);
 }
 .features-title {
@@ -177,7 +169,6 @@ background-color: #82B3D3;
 .page-footer {
   background-color: #ffffff;
   color: #000000;
-  text-align: center;
 }
 .footer-socials-link {
   font-size: 40px;
@@ -190,6 +181,7 @@ background-color: #82B3D3;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
+  text-align: center;
   color: #000000;
 }
 .main-inner {
@@ -201,7 +193,6 @@ background-color: #82B3D3;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #82B3D3;
-  text-align: center;
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
@@ -215,6 +206,10 @@ font-weight: 700;
   font-size: 16px;
   line-height: 21px;
 }
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #ffffff;
+}
 .accomodations-filter-title {
   font-size: 20px;
   line-height: 24px;
@@ -226,6 +221,7 @@ font-weight: 700;
   font-weight: 700;
   background-color: #82B3D3;
   text-transform: uppercase;
+  text-align: center;
 }
 .accomodation-btn-reset {
   color: #ffffff;
@@ -234,6 +230,7 @@ font-weight: 700;
   font-weight: 700;
   text-transform: uppercase;
   background-color: transparent;
+  text-align: center;
 }
 .search-result-title {
   font-size: 30px;
@@ -246,6 +243,10 @@ font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+}
+.button-cards {
+  text-decoration: none;
+  color: #000000;
 }
 .search-result-hotel {
   font-size: 24px;
