@@ -23,6 +23,7 @@ body {
 .content {
   background-color: #ffffff;
 }
+/*навигация*/
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -48,6 +49,7 @@ body {
   background-size: 100%  auto;
   background-color: #82B3D3;
 }
+/*приемущества*/
 .remake {
   font-size: 30px;
   line-height: 36px;
@@ -59,7 +61,7 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-.advantages-title {
+.light-advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -81,7 +83,7 @@ body {
 .turquoise-advantages-description {
   color: #ffffff;
 }
-.advantages-item {
+.blue-advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
 .center-advantages-item {
@@ -105,7 +107,8 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-.features {
+/*особености*/
+.edges-features-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
 .features-title {
@@ -114,15 +117,10 @@ body {
   color: #000000;
   text-transform: uppercase;
 }
-.lover-features-item {
+.food-features-item {
   background-color: #ffffff;
 }
-.lover-features-title {
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  text-transform: uppercase;
-}
+/*сервис*/
 .services-title {
   font-size: 30px;
   line-height: 36px;
@@ -165,6 +163,7 @@ background-color: #82B3D3;
   background-color: #82B3D3;
   color: #ffffff;
 }
+/*подвал*/
 .page-footer {
   background-color: #ffffff;
   color: #000000;
@@ -183,6 +182,7 @@ background-color: #82B3D3;
   text-align: center;
   color: #000000;
 }
+/*каталог*/
 .main-inner {
   font-size: 18px;
   line-height: 21px;
