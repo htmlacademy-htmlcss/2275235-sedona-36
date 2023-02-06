@@ -61,12 +61,14 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-.light-advantages-title {
+/*список*/
+.advantages-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
-  color: #000000;
   text-transform: uppercase;
+}
+.light-advantages-title {
+  color: #000000;
 }
 .center-advantages-title {
   color: #000000;
@@ -75,10 +77,7 @@ body {
   background-color: #82B3D3;
 }
 .turquoise-advantages-title {
-  font-size: 24px;
-  line-height: 28px;
   color: #ffffff;
-  text-transform: uppercase;
 }
 .turquoise-advantages-description {
   color: #ffffff;
@@ -88,11 +87,6 @@ body {
 }
 .center-advantages-item {
   background-color: rgba(131, 179, 211, 0.2);
-}
-.center-advantages-title {
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
 }
 .lover-advantages-item {
   background-color: #ffffff;
@@ -247,6 +241,7 @@ font-weight: 700;
   text-decoration: none;
   color: #000000;
 }
+/*список гостиниц*/
 .search-result-hotel {
   font-size: 24px;
   line-height: 28px;
@@ -256,12 +251,14 @@ font-weight: 700;
 .search-result-price {
   font-size: 18px;
   line-height: 21px;
+  text-align: right;
   color: #333333;
 }
 .button-search-result {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
+  text-align: center;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #756157;
@@ -270,6 +267,8 @@ font-weight: 700;
 .button {
   font-size: 16px;
   line-height: 21px;
+  font-weight: 700;
+  text-align: center;
   color: #ffffff;
   background-color: #82B3D3;
   text-transform: uppercase;
@@ -277,11 +276,12 @@ font-weight: 700;
 .rating-text {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  text-align: center;
   color: #333333;
   background-color: #F2F2F2;
   text-transform: uppercase;
 }
+/* пагинация */
 .pagination {
   background-color: #ffffff;
 }
