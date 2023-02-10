@@ -126,6 +126,8 @@ body {
   color: #000000;
 }
 .turquoise-advantages-item {
+  display: flex;
+  width: 1200px;
   background-color: #82B3D3;
 }
 .turquoise-advantages-title {
