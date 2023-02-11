@@ -321,6 +321,13 @@ font-weight: 700;
   background-color: transparent;
   text-align: center;
 }
+.search-result {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin-left: 70px;
+}
+
 .search-result-title {
   font-size: 30px;
   line-height: 36px;
