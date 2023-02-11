@@ -274,7 +274,22 @@ font-size: 60px;
 line-height: 78px;
 font-weight: 700;
 }
-.breadcrumbs {
+.accomodations-filter {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-right: 70px;
+
+}
+.accomodation-filter-list {
+  list-style: none;
+}
+.choose {
+  list-style: none;
+}
+.accomodations-filter-group {
+  width: 150px;
+  margin-right: 140px;
 }
 .breadcrumbs-item {
   font-size: 16px;
@@ -323,11 +338,25 @@ font-weight: 700;
   color: #000000;
 }
 /*список гостиниц*/
+.search-result-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1060px;
+  margin-left: 70px;
+  padding: 0;
+  list-style: none;
+}
+.search-result-item {
+  width: 340px;
+
+}
 .search-result-hotel {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: #000000;
+
 }
 .search-result-price {
   font-size: 18px;
@@ -366,6 +395,21 @@ font-weight: 700;
 .pagination {
   background-color: #ffffff;
 }
+.pagination-rows{
+  display: flex;
+
+  width: 1060px;
+  margin-left: 70px;
+}
+.pagination-row {
+  display: flex;
+  margin-left: 70px;
+
+}
+.pagination-item {
+  width: 60px;
+  list-style: none;
+}
 .pagination-link {
   font-size: 20px;
   line-height: 36px;
@@ -377,4 +421,10 @@ font-weight: 700;
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+}
+.main-subscribe {
+  text-align: center;
+  margin: 258px;
+  width: 684px;
+
 }
