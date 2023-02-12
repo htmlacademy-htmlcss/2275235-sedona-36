@@ -344,7 +344,7 @@ font-weight: 700;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1060px;
-  margin-left: 70px;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
 }
