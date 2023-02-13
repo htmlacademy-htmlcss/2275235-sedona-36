@@ -144,7 +144,10 @@ body {
 .lover-advantages-item {
   background-color: #ffffff;
   width: 505px;
-  margin-left: 347.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+
 }
 .lover-advantages-title {
   color: #000000;
