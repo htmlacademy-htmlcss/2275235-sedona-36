@@ -189,9 +189,17 @@ body {
   width: 400px;
   min-height: 385px;
 }
-.features-text {
+.features-title {
   width: 230px;
-  padding: 81px 85px;
+  margin-top: 183px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features-description {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 81px;
 }
 .edges-features-item {
   background-color: rgba(131, 179, 211, 0.12);
@@ -234,10 +242,10 @@ body {
   padding: 8px 50px;
 }
 .subscribe {
-background-image: url("/images/background/background-1.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
-background-color: #82B3D3;
+  background-image: url("/images/background/background-1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #82B3D3;
 }
 .subscribe-title {
   font-size: 30px;
