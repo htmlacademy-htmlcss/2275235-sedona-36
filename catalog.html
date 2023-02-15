@@ -65,7 +65,7 @@
               <div class="variety">
               <h2 class="visually-hidden" hidden>Условия проживания в гостиницах Седоны</h2>
               <form class="accomodations-filter" action="https://echo.htmlacademy.ru/" method="get">
-                <fieldset class="accomodations-filter-group">
+                <fieldset class="accomodations-filter-group infrastructure">
                   <legend class="accomodations-filter-title">Инфраструктура:</legend>
                   <ul class="accomodation-filter-list">
                     <li class="accomodation-filter-item">
@@ -88,7 +88,7 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="accomodations-filter-group">
+                <fieldset class="accomodations-filter-group housing">
                   <legend class="accomodations-filter-title">Тип жилья:</legend>
                   <ul class="accomodation-filter-list">
                     <li class="accomodation-filter-item">
@@ -111,7 +111,7 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="accomodations-filter-group">
+                <fieldset class="accomodations-filter-group cost">
                   <legend class="accomodations-filter-title">Стоимость,₽:</legend>
                 </fieldset>
               <ul class="choose">
@@ -122,6 +122,7 @@
             </div>
           </section>
           <div class="alternative">
+            <!--поиск-->
           <section class="search-result">
             <h2 class="search-result-title">Найдено гостиниц:<span class="search-result-row">38</span></h2>
             <select class="select-control" aria-label="Сортировка">
@@ -146,10 +147,14 @@
                   <img class="search-result-img" src="images/hotels/hotel-1.jpg" width="300" height="212" alt="вид из ущелья на звездное небо.">
                 </a>
                 <h3 class="search-result-hotel">Amara Resort & Spa</h3>
-                <p class="search-result-desc">Гостиница</p>
-                <p class="search-result-price">От 4000 ₽</p>
-                <a class="button-search-result" href="#">Подробнее</a>
-                <button class="button">В избранное</button>
+                <div class="price">
+                  <p class="search-result-desc">Гостиница</p>
+                  <p class="search-result-price">От 4000 ₽</p>
+                </div>
+                <div class="detailed">
+                  <a class="button-search-result" href="#">Подробнее</a>
+                  <button class="button">В избранное</button>
+                </div>
                 <p class="stars star-4">
                   <span class="visually-hidden" hidden>4 звёзды.</span>
                 </p>
@@ -160,10 +165,14 @@
                   <img class="search-result-img" src="images/hotels/hotel-2.jpg" width="300" height="212" alt="горы на фоне радуги.">
                 </a>
                 <h3 class="search-result-hotel">Villas at Poco Diablo</h3>
-                <p class="search-result-desc">Гостиница</p>
-                <p class="search-result-price">От 5000 ₽</p>
-                <a class="button-search-result" href="#">Подробнее</a>
-                <button class="button">В избранном</button>
+                <div class="price">
+                  <p class="search-result-desc">Гостиница</p>
+                  <p class="search-result-price">От 5000 ₽</p>
+                </div>
+                <div class="detailed">
+                  <a class="button-search-result" href="#">Подробнее</a>
+                  <button class="button">В избранном</button>
+                </div>
                 <p class="stars star-4">
                   <span class="visually-hidden" hidden>4 звёзды.</span>
                 </p>
@@ -174,10 +183,14 @@
                   <img class="search-result-img" src="images/hotels/hotel-3.jpg" width="300" height="212" alt="горы, зелень.">
                 </a>
                 <h3 class="search-result-hotel">Desert Quail Inn</h3>
-                <p class="search-result-desc">Гостиница</p>
-                <p class="search-result-price">От 2500 ₽</p>
-                <a class="button-search-result" href="#">подробнее</a>
-                <button class="button">в избранное</button>
+                <div class="price">
+                  <p class="search-result-desc">Гостиница</p>
+                  <p class="search-result-price">От 2500 ₽</p>
+                </div>
+                <div class="detailed">
+                  <a class="button-search-result" href="#">подробнее</a>
+                  <button class="button">в избранное</button>
+                </div>
                 <p class="stars star-3">
                   <span class="visually-hidden" hidden>3 звёзды.</span>
                 </p>
@@ -188,10 +201,14 @@
                   <img class="search-result-img" src="images/hotels/hotel-4.jpg" width="300" height="212" alt="горы под звездным небом.">
                 </a>
                 <h3 class="search-result-hotel">GreenTree Inn</h3>
-                <p class="search-result-desc">Гостиница</p>
-                <p class="search-result-price">От 1500 ₽</p>
+                <div class="price">
+                  <p class="search-result-desc">Гостиница</p>
+                  <p class="search-result-price">От 1500 ₽</p>
+                </div>
+                <div class="detailed">
                 <a class="button-search-result" href="#">подробнее</a>
                 <button class="button">в избранное</button>
+              </div>
                 <p class="stars star-2">
                   <span class="visually-hidden" hidden>2 звёзды.</span>
                 </p>
@@ -236,7 +253,7 @@
             <h2 class="main-subscribe-caption"> Подпишитесь на рассылку</h2>
             <p class="main-subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input type="email" id="email-field" name="subscribe-name" placeholder="ваш E-mail">
+              <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="ваш E-mail">
               <button class="button-email-btn" type="submit"><span class="email-btn-text">Подписаться</span></button>
             </form>
           </section>

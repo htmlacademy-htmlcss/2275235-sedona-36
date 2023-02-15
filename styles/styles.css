@@ -37,6 +37,7 @@ body {
 /*навигация*/
 .page-header {
   display: flex;
+  height: 64px;
 }
 .logo {
   display: flex;
@@ -59,6 +60,7 @@ body {
   color: #000000;
   text-decoration: none;
 }
+
 .lefthand {
   padding: 16px 20px;
 }
@@ -69,6 +71,7 @@ body {
   color: #ffffff;
   background-color: #756157;
   padding: 8px 34px;
+  border-radius: 4px;
 }
 .main-container {
   flex-grow: 1;
@@ -83,6 +86,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%  auto;
   background-color: #82B3D3;
+  padding-top: 51px;
 }
 /*приемущества*/
 .remake {
@@ -90,6 +94,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 69px;
+  margin-bottom: 25px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -101,8 +106,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 69px;
-  margin-top: -27px;
-  font-size: 22px;
+  margin-top: 25px;
+  font-size: 25px;
   line-height: 26px;
 }
 /*список*/
@@ -120,7 +125,7 @@ body {
 }
 .index-image {
   width: 230px;
-  margin: 102px 85px;
+  margin: 100px 85px;
 }
 .index-columns {
   width: 230px;
@@ -159,22 +164,21 @@ body {
   width: 505px;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 .lover-advantages-title {
   color: #000000;
   font-size: 30px;
   line-height: 36px;
   margin-top: 64px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 .lover-advantages-description {
   font-size: 22px;
   line-height: 26px;
   width: 490px;
+  margin-top: 20px;
   margin-bottom: 64px;
-  margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,6 +196,7 @@ body {
 .features-title {
   width: 230px;
   margin-top: 183px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -199,6 +204,7 @@ body {
   width: 230px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   margin-bottom: 81px;
 }
 .edges-features-item {
@@ -233,6 +239,7 @@ body {
   line-height: 26px;
 }
 .services-link-botton {
+  border-radius: 4px;
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
@@ -246,19 +253,45 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #82B3D3;
+  height: 415px;
+  text-align: center;
 }
 .subscribe-title {
+  width: 404px;
+  padding-top: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
   text-transform: uppercase;
 }
 .subscribe-item {
+  width: 475px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 54px;
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
 }
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box {
+  width: 452px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
 .button-email-btn {
+  width: 232px;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 0 4px 4px 0;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
@@ -267,6 +300,8 @@ body {
 }
 /*подвал*/
 .page-footer {
+  display: flex;
+  flex-direction: row;
   background-color: #ffffff;
   color: #000000;
 }
@@ -280,17 +315,19 @@ body {
   text-decoration: none;
 }
 .footer-contacts-phone {
+  display: flex;
+  margin-right: 194px;
   font-style: normal;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
   text-align: center;
   color: #000000;
-}
-.footer-contacts-phone {
-  display: flex;
   width: 331px;
   margin-left: 434.5px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
 }
 .footer-logo {
   display: flex;
@@ -301,6 +338,7 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+/*таблица*/
 .accommodations {
   background-image: url("/images/background/background-2.jpg");
   background-repeat: no-repeat;
@@ -309,34 +347,65 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
+  height: 412px;
 }
 .inner-header-title {
 font-size: 60px;
 line-height: 78px;
 font-weight: 700;
+padding-top: 35px;
+margin-bottom: 8px;
+margin-left: 70px;
 }
 .accomodations-filter {
   display: flex;
   justify-content: space-between;
-  width: 150px;
-  margin-right: 70px;
 
 }
 .accomodation-filter-list {
   list-style: none;
+  padding-left: 0;
 }
 .choose {
   list-style: none;
+  padding-right: 0;
 }
 .accomodations-filter-group {
-  width: 150px;
-  margin-right: 140px;
+  min-width: 151px;
+  height: 157px;
+}
+.infrastructure {
+  margin-right: 70px;
+  padding: 0;
+}
+.housing {
+  margin-right: 167px;
+  padding: 0;
+}
+.cost {
+  min-width: 288px;
+}
+.accomodation-filter-item {
+  padding: 0;
+  margin-bottom: 16px;
 }
 .breadcrumbs-item {
+  width: 114px;
+  margin-left: 70px;
+  margin-top: 8px;
   font-size: 16px;
   line-height: 21px;
+  list-style: none;
+}
+.variety {
+  margin-top: 40px;
+  width: 1060px;
+  height: 160px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .breadcrumbs-link {
+  width: 73px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -352,6 +421,11 @@ font-weight: 700;
   background-color: #82B3D3;
   text-transform: uppercase;
   text-align: center;
+  padding: 8px 50px;
+  margin-top: 56px;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 4px;
 }
 .accomodation-btn-reset {
   color: #ffffff;
@@ -361,15 +435,26 @@ font-weight: 700;
   text-transform: uppercase;
   background-color: transparent;
   text-align: center;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 81px;
 }
+/*поиск*/
 .search-result {
   display: flex;
   justify-content: space-between;
   width: 1060px;
+  height: 49px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   margin-left: 70px;
 }
 
 .search-result-title {
+  width: 338px;
+  margin-top: 6.8px;
+  margin-bottom: 6.8px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -377,6 +462,12 @@ font-weight: 700;
   text-transform: uppercase;
 }
 .select-control {
+  width: 292px;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  height: 49px;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -399,15 +490,33 @@ font-weight: 700;
   list-style: none;
 }
 .search-result-item {
+  margin-bottom: 20px;
   width: 340px;
-
+  height: 438px;
+  border-radius: 4px;
+}
+.search-result-img {
+  margin: 20px 20px 16px 20px;
 }
 .search-result-hotel {
+  width: 300px;
+  height: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: #000000;
-
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 0;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .search-result-price {
   font-size: 18px;
@@ -415,7 +524,16 @@ font-weight: 700;
   text-align: right;
   color: #333333;
 }
+.detailed {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px
+}
 .button-search-result {
+  width: 88px;
+  margin-right: 20px;
+  padding: 8px 26px;
+  border-radius: 4px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -426,6 +544,11 @@ font-weight: 700;
   text-decoration: none;
 }
 .button {
+  width: 140px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 8px 20px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -437,23 +560,36 @@ font-weight: 700;
 .rating-text {
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 180px;
+  padding: 9px 22px;
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 96px;
   color: #333333;
   background-color: #F2F2F2;
   text-transform: uppercase;
 }
 /* пагинация */
 .pagination {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 0px;
+
+
   background-color: #ffffff;
 }
 .pagination-row {
   display: flex;
   gap: 8px;
   margin-left: 70px;
-
+  width: 1060px;
 }
 .pagination-item {
   width: 60px;
+
+  text-align: center;
   list-style: none;
 }
 .pagination-link {
@@ -470,8 +606,49 @@ font-weight: 700;
   background-color: #F2F2F2;
 }
 .main-subscribe {
+  background-color: #ffffff;
+  height: 415px;
   text-align: center;
-  margin: 258px;
-  width: 684px;
-
+}
+.main-subscribe-caption {
+  width: 404px;
+  padding-top: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.main-subscribe-text {
+  width: 475px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 54px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box {
+  width: 452px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+}
+.button-email-btn {
+  width: 232px;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #ffffff;
 }
