@@ -81,7 +81,6 @@ body {
   color: #000000;
   text-decoration: none;
 }
-
 .lefthand {
   padding: 16px 20px;
 }
@@ -381,17 +380,17 @@ body {
   height: 412px;
 }
 .inner-header-title {
-font-size: 60px;
-line-height: 78px;
-font-weight: 700;
-padding-top: 35px;
-margin-bottom: 8px;
-margin-left: 70px;
+  margin-top: 0;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  padding-top: 35px;
+  margin-bottom: 8px;
+  margin-left: 70px;
 }
 .accomodations-filter {
   display: flex;
   justify-content: space-between;
-
 }
 .accomodation-filter-list {
   list-style: none;
@@ -399,11 +398,15 @@ margin-left: 70px;
 }
 .choose {
   list-style: none;
-  padding-right: 0;
+  padding: 0;
+  margin: 0;
 }
 .accomodations-filter-group {
   min-width: 151px;
   height: 157px;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 .infrastructure {
   margin-right: 70px;
@@ -453,7 +456,6 @@ margin-left: 70px;
   text-transform: uppercase;
   text-align: center;
   padding: 8px 50px;
-  margin-top: 56px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
@@ -469,7 +471,6 @@ margin-left: 70px;
   padding: 8px 50px;
   border: none;
   border-radius: 4px;
-  margin-bottom: 81px;
 }
 /*поиск*/
 .search-result {
@@ -481,7 +482,6 @@ margin-left: 70px;
   margin-bottom: 40px;
   margin-left: 70px;
 }
-
 .search-result-title {
   width: 338px;
   margin-top: 6.8px;
@@ -606,9 +606,7 @@ margin-left: 70px;
 .pagination {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding-left: 0px;
-
-
+  padding-left: 0;
   background-color: #ffffff;
 }
 .pagination-row {
@@ -619,7 +617,6 @@ margin-left: 70px;
 }
 .pagination-item {
   width: 60px;
-
   text-align: center;
   list-style: none;
 }
