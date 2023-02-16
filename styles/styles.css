@@ -593,7 +593,7 @@ body {
 .detailed {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px
+  margin-left: 20px;
 }
 .button-search-result {
   width: 88px;
