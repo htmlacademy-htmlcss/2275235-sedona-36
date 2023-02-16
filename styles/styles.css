@@ -56,6 +56,7 @@ body {
 }
 .navigation {
   display: flex;
+  flex-wrap: wrap;
 }
 .navigation-list {
   list-style: none;
@@ -108,7 +109,19 @@ body {
   background-repeat: no-repeat;
   background-size: 100%  auto;
   background-color: #82B3D3;
+  height: 485px;
+}
+.welcome {
+  display: block;
+  margin: 0 auto;
   padding-top: 51px;
+  padding-bottom: 25px;
+}
+.about::after {
+  background-image: url("/images/level.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100% auto;
 }
 /*приемущества*/
 .remake {
@@ -127,8 +140,7 @@ body {
   width: 651px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 69px;
-  margin-top: 25px;
+  margin-bottom: 90px;
   font-size: 25px;
   line-height: 26px;
 }
