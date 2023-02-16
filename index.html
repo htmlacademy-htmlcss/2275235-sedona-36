@@ -8,38 +8,36 @@
   <body>
     <div class="content">
       <header class="page-header">
-        <div class="navigation-logo">
           <a><img class="logo" src="/images/logos/logo.svg" width="140" height="70" alt="Логотип Города Седона."></a>
-        </div>
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-items">
-              <a class="navigation-link">
+              <a class="navigation-link lefthand">
                 Главная
               </a>
             </li>
             <li class="navigation-items">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link lefthand" href="#">
                 О Седоне
               </a>
             </li>
             <li class="navigation-items">
-              <a class="navigation-link" href="catalog.html">
+              <a class="navigation-link lefthand" href="catalog.html">
                 Гостиницы
               </a>
             </li>
           </ul>
-          <ul class="navigation-list">
+          <ul class="navigation-list navigation-user">
             <li class="navigation-items">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden" hidden>
+                <span class="visually-hidden">
                 Поиск.
               </span>
               </a>
             </li>
             <li class="navigation-items">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden" hidden>
+                <span class="visually-hidden">
                 Лайки.
               </span>
               </a>
@@ -54,11 +52,11 @@
       </header>
       <main class="main-container main-index">
         <section class="about">
-        <h1 class="visually-hidden" hidden>Добро пожаловать в "Седону"</h1>
-        <img src="images/welcome.svg" width="458" height="352" alt="горы.">
+        <h1 class="visually-hidden">Добро пожаловать в "Седону"</h1>
+        <img class="welcome" src="images/welcome.svg" width="458" height="352" alt="горы.">
         </section>
         <section class="advantages">
-          <h2 class="visually-hidden" hidden>Преимущества</h2>
+          <h2 class="visually-hidden">Преимущества</h2>
           <p class="remake">Седона — небольшой городок в Аризоне,<br>
           заслуживающий большего!</p>
           <p class="gray">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -96,7 +94,7 @@
                 <p class="advantages-description turquoise-advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </div>
             </li>
-            <li class="advantages-item lover-advantages-item">
+            <li class="lover-advantages-item">
                 <h3 class="advantages-title lover-advantages-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h3>
                 <p class="advantages-description lover-advantages-description">Опытный персонал и качественное обслуживание!</p>
             </li>
@@ -104,25 +102,19 @@
         <!--особенности-->
         <ul class="features">
           <li class="features-item edges-features-item">
-            <div class="features-text">
               <h2 class="features-title">Жильё</h2>
               <p class="features-description">Рекомендуем пожить в настоящем мотеле,
                 всё как в кино!</p>
-            </div>
           </li>
           <li class="features-item food-features-item">
-            <div class="features-text">
               <h2 class="features-title food-features-title">Еда</h2>
               <p class="features-description food-features-description">Всегда заказывайте
                 топовый фирменный бургер, вы не разочаруетесь!</p>
-            </div>
           </li>
           <li class="features-item edges-features-item">
-            <div class="features-text">
               <h2 class="features-title">Сувениры</h2>
               <p class="features-description">Не только китайского,
                 но и настоящего местного производства!</p>
-            </div>
           </li>
         </ul>
       </section>
@@ -138,36 +130,35 @@
         <h2 class="subscribe-title"> Подпишитесь на рассылку</h2>
         <p class="subscribe-item">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="email" id="email-field" name="subscribe-name" placeholder="Ваш имейл">
+          <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="Ваш имейл">
           <button class="button-email-btn" type="submit"><span class="email-btn-text">Подписаться</span></button>
         </form>
       </section>
       </main>
       <!--подвал-->
       <footer class="page-footer">
-        <div class="footer-container">
           <section class="footer-socials">
-            <h2 class="visually-hidden" hidden>социальные сети</h2>
-            <ul class="footer-socials-items">
+            <h2 class="visually-hidden">социальные сети</h2>
+            <ul class="footer-socials-list">
               <li class="footer-socials-item">
                 <a class="footer-socials-link" href="https://vk.com/htmlacademy">
-                  <span class="visually-hidden" hidden>Вконтакте.</span>
+                  <span class="visually-hidden">Вконтакте.</span>
                 </a>
               </li>
               <li class="footer-socials-item">
                 <a class="footer-socials-link" href="https://t.me/htmlacademy">
-                  <span class="visually-hidden" hidden>Твиттер.</span>
+                  <span class="visually-hidden">Твиттер.</span>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="footer-socials-link" href="https://www.youtube.com/user/htmlacademyru">
-                  <span class="visually-hidden" hidden>Youtube.</span>
+                  <span class="visually-hidden">Youtube.</span>
                 </a>
               </li>
             </ul>
           </section>
           <section class="footer-contacts">
-            <h2 class="visually-hidden" hidden>Контакты</h2>
+            <h2 class="visually-hidden">Контакты</h2>
             <address class="footer-contacts-phone-address">
               <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             </address>
@@ -175,7 +166,6 @@
               <img class="footer-logo" src="images/logos/Logo-1.svg" width="115" height="33" alt="Логотип Html академии.">
             </a>
           </section>
-      </div>
       </footer>
     </div>
   </body>
