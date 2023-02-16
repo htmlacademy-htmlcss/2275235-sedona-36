@@ -550,7 +550,8 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1060px;
-  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-left: 70px;
   padding: 0;
   list-style: none;
 }
@@ -638,30 +639,34 @@ body {
 }
 /* пагинация */
 .pagination {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
 }
 .pagination-row {
   display: flex;
   gap: 8px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   margin-left: 70px;
   width: 1060px;
 }
 .pagination-item {
   width: 60px;
+  height: 60px;
   text-align: center;
   list-style: none;
 }
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
   color: #ffffff;
   background-color: #82B3D3;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 11px 23px;
 }
 .pagination-current {
   color: #000000;
