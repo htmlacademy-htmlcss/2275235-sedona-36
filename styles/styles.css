@@ -546,47 +546,49 @@ body {
   color: #000000;
 }
 /*список гостиниц*/
-.search-result-card {
-  display: block;
-}
 .search-result-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
   width: 1060px;
+  margin: 0 auto;
   margin-bottom: 40px;
-  margin-left: 70px;
   padding: 0;
   list-style: none;
 }
 .search-result-item {
-  margin-bottom: 20px;
-  width: 340px;
-  height: 438px;
+  display: grid;
+  grid-template-rows: 212px min-content auto auto min-content;
+  grid-template-columns: 20px 140px 20px 140px 20px;
   border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.search-result-img {
-  margin: 20px 20px 16px 20px;
+.search-result-card {
+  grid-column: 2 / 5;
 }
 .search-result-hotel {
-  width: 300px;
-  height: 28px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 0;
+  grid-column: 2 / 5;
+  margin-top: 16px;
   margin-bottom: 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: #000000;
 }
-.price {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-  padding: 0;
-  margin-right: 20px;
-  margin-left: 20px;
+.search-result-desc,
+.button-search-result,
+.stars {
+  grid-column: 2 / 3;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.search-result-price,
+.button,
+.rating-text {
+  grid-column: 4/5;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 .search-result-price {
   font-size: 18px;
@@ -594,14 +596,8 @@ body {
   text-align: right;
   color: #333333;
 }
-.detailed {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 20px;
-}
 .button-search-result {
   width: 88px;
-  margin-right: 20px;
   padding: 8px 26px;
   border-radius: 4px;
   font-size: 16px;
@@ -626,15 +622,15 @@ body {
   background-color: #82B3D3;
   text-transform: uppercase;
 }
+.pressed {
+  background-color: #7DB54F;
+}
 .rating-text {
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  margin-right: 20px;
-  margin-left: 180px;
   padding: 9px 22px;
   border-radius: 4px;
-  margin-top: 20px;
   width: 96px;
   color: #333333;
   background-color: #F2F2F2;
