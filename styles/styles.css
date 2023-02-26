@@ -594,12 +594,25 @@ background-color: rgba(130, 179, 211, 1);
   font-size: 16px;
   line-height: 21px;
   list-style: none;
+  display: block;
 }
-.home {
-  margin-right: 11.3px;
+.homeward:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.homeward:focus {
+  color: rgba(255, 255, 255, 1);
+}
+.homeward:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.homeward {
+  text-decoration: none;
+  margin-right: 0;
+  padding: 0;
 }
 .forward {
   margin-right: 10.8px;
+  margin-left: 11.3px;
 }
 .hotels:hover {
   color: rgba(255, 255, 255, 0.6);
