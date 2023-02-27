@@ -631,6 +631,7 @@ background-color: rgba(130, 179, 211, 1);
   height: 160px;
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 70px;
 }
 .breadcrumbs-link {
   width: 73px;
@@ -689,6 +690,7 @@ background-color: rgba(130, 179, 211, 1);
   margin-top: 50px;
   margin-bottom: 40px;
   margin-left: 70px;
+  margin-right: 70px;
 }
 .search-result .button-cards {
   width: 48px;
@@ -699,7 +701,7 @@ background-color: rgba(130, 179, 211, 1);
   margin-right: 0;
 }
 .search-result-title {
-  margin-right: 200px;
+  margin-right: auto;
   width: 338px;
   margin-top: 6.8px;
   margin-bottom: 6.8px;
@@ -740,7 +742,7 @@ background-color: rgba(130, 179, 211, 1);
   background-image: url("/images/icons/tile.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid rgba(229, 229, 229, 1);
+  border: 2px solid rgba(0, 0, 0, 1);
   border-radius: 4px;
 }
 .tile:hover,
@@ -935,11 +937,12 @@ background-color: rgba(130, 179, 211, 1);
   border-radius: 4px;
   text-decoration: none;
   padding: 11px 23px;
+  height: 60px;
 }
 .pagination-link:hover,
 .pagination-link:focus  {
   background-color: rgba(104, 162, 202, 1);
-  border: 1px solid rgba(130, 179, 211, 1);
+  box-shadow: inset 0 0 0 1px #82b3d3;
 }
 .pagination-link:active {
   background-color: rgba(130, 179, 211, 1);
@@ -956,6 +959,9 @@ background-color: rgba(130, 179, 211, 1);
   background-color: #F2F2F2;
   text-decoration: none;
   padding: 11px 23px;
+}
+.end {
+  padding: 11px 18px;
 }
 .main-subscribe {
   background-color: #ffffff;
