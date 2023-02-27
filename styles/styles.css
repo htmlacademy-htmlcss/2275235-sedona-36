@@ -65,6 +65,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 339px;
+  height: 64px;
 }
 .navigation-user {
   margin-left: 285px;
@@ -98,7 +99,8 @@ body {
 .lefthand::before {
   content: "";
   position: absolute;
-  width: 68px;
+  right: 16px;
+  left: 16px;
   bottom: 0;
   border-bottom: 2px solid #756257;
 }
@@ -883,19 +885,19 @@ background-color: rgba(130, 179, 211, 1);
   background-image: url("/images/icons/star.svg");
   background-repeat: repeat-x;
   background-position: 0;
-  width: 36px;
+  width: 45px;
 }
 .star-3 {
   background-image: url("/images/icons/star.svg");
   background-repeat: repeat-x;
   background-position: 0;
-  width: 54px;
+  width: 70px;
 }
 .star-4 {
   background-image: url("/images/icons/star.svg");
   background-repeat: repeat-x;
-  background-position: 0;
-  width: 72px;
+  background-position: 0 50%;
+  width: 95px;
 }
 
 /* пагинация */
