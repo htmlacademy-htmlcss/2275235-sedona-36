@@ -597,13 +597,13 @@ background-color: rgba(130, 179, 211, 1);
   display: block;
 }
 .homeward:hover {
-  color: rgba(255, 255, 255, 0.6);
+  fill: rgba(255, 255, 255, 0.6);
 }
 .homeward:focus {
-  color: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
 }
 .homeward:active {
-  color: rgba(255, 255, 255, 0.3);
+  fill: rgba(255, 255, 255, 0.3);
 }
 .homeward {
   text-decoration: none;
