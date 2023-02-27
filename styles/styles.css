@@ -710,12 +710,16 @@ background-color: rgba(130, 179, 211, 1);
   text-transform: uppercase;
 }
 .select-control {
+  appearance: none;
+  border: 2px solid #e5e5e5;
+  background-image: url("/images/icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
   margin-right: 70px;
   width: 292px;
   border-radius: 4px;
-  padding-left: 20px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 12px 20px;
+  padding-right: 40px;
   height: 49px;
   font-size: 18px;
   line-height: 21px;
