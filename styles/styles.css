@@ -576,7 +576,7 @@ background-color: rgba(130, 179, 211, 1);
   padding: 0;
 }
 .housing {
-  margin-right: 167px;
+  margin-right: 140px;
   padding: 0;
 }
 .cost {
@@ -680,6 +680,16 @@ background-color: rgba(130, 179, 211, 1);
 .accomodation-btn-reset:disabled {
   border-radius: 4px;
   color: rgba(255, 255, 255, 1);
+}
+.price-filter {
+  border: none;
+  padding: 0;
+}
+.price-min {
+  border-radius: 4px 0 0 4px;
+}
+.price-max {
+  border-radius: 0 4px 4px 0;
 }
 /*поиск*/
 .search-result {
