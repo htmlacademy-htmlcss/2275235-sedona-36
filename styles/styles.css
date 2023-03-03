@@ -1181,6 +1181,9 @@ left: 214.5px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
+.modal-container-close {
+  display: none;
+}
 .modal {
   position: relative;
   margin: auto;
@@ -1209,6 +1212,7 @@ left: 214.5px;
   background-position: center;
   cursor: pointer;
   border-radius: 50%;
+
 }
 .modal-close-button:hover {
   background-color: #E6E6E6;
