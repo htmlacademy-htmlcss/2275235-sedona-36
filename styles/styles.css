@@ -85,12 +85,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.navigation-user .navigation-items:nth-child(1) .navigation-link:hover {
-  background-color: fuchsia;
-}
-.navigation-user .navigation-items:nth-child(2) .navigation-link:hover {
-  background-repeat: repeat;
-}
 .navigation-link {
   position: relative;
   display: block;
@@ -178,7 +172,7 @@ body {
   display: block;
   background-size: 100% auto;
   height: 57px;
-  bottom: -1px;
+  background-position: -1px;
 }
 /*приемущества*/
 .remake {
@@ -389,7 +383,7 @@ body {
   text-align: center;
 }
 .subscribe-title {
-  width: 404px;
+  min-width: 404px;
   padding-top: 96px;
   margin-left: auto;
   margin-right: auto;
@@ -399,6 +393,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .subscribe-item {
@@ -428,6 +423,7 @@ body {
   border-radius: 0 4px 4px 0;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
   background-color: #82B3D3;
   color: #ffffff;
@@ -714,6 +710,7 @@ background-color: rgba(130, 179, 211, 1);
   font-size: 20px;
   line-height: 24px;
   padding: 0;
+  font-weight: 700;
 }
 .accomodation-btn {
   color: #ffffff;
@@ -751,7 +748,7 @@ background-color: rgba(130, 179, 211, 1);
   color: rgba(255, 255, 255, 0.6);
 }
 .accomodation-btn-reset:focus {
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
   border-radius: 4px;
   color: #ffffff;
 }
@@ -769,6 +766,7 @@ background-color: rgba(130, 179, 211, 1);
 }
 .range-label {
   position: relative;
+  height: 48px;
 }
 .range-input {
   padding: 12px 20px;
@@ -778,14 +776,13 @@ background-color: rgba(130, 179, 211, 1);
   border: none;
   box-sizing: border-box;
   outline: none;
+  height: 48px;
+  width: 143px;
 }
 .range-input-till {
   border-radius: 4px 0 0 4px;
-  width: 143px;
 }
 .range-input-next {
-  display: flex;
-  width: 143px;
   border-radius: 0 4px 4px 0;
 }
 .input-text {
@@ -830,7 +827,7 @@ left: 214.5px;
 }
 .range-input:focus {
   background-color: rgba(230, 230, 230, 1);
-  border: 3px solid rgba(131, 179, 211, 1);
+  outline: 3px solid rgba(131, 179, 211, 1);
 }
 .rangle-toggle:focus {
   outline: 3px solid rgba(131, 179, 211, 1);
@@ -860,7 +857,7 @@ left: 214.5px;
 }
 .search-result-title {
   margin-right: auto;
-  width: 338px;
+  min-width: 338px;
   margin-top: 6.8px;
   margin-bottom: 6.8px;
   font-size: 30px;
@@ -999,7 +996,7 @@ left: 214.5px;
   text-transform: uppercase;
   background-color: #756157;
   text-decoration: none;
-  font-family: "PT Sans";
+
 }
 .button {
   width: 140px;
@@ -1129,7 +1126,7 @@ left: 214.5px;
   text-align: center;
 }
 .main-subscribe-caption {
-  width: 404px;
+  min-width: 404px;
   padding-top: 96px;
   margin-left: auto;
   margin-right: auto;
@@ -1159,6 +1156,9 @@ left: 214.5px;
   border-radius: 4px 0 0 4px;
   background-color: #F2F2F2;
 }
+.btn {
+  font-family: "PT Sans", sans-serif;
+}
 .button-email-btn {
   width: 232px;
   padding: 8px 50px;
@@ -1181,6 +1181,7 @@ left: 214.5px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .modal-container-close {
   display: none;
 }
@@ -1261,6 +1262,11 @@ left: 214.5px;
 .field-date:active {
   background-color: rgba(242, 242, 242, 1);
   outline: 2px solid rgba(0, 0, 0, 1);
+}
+.field-date:invalid {
+  color: rgb(248, 10, 10);
+  background-color: rgba(0, 0, 0, 0.3);
+  outline: 2px solid rgba(0, 0, 0, 0.3);
 }
 .date-text {
   display: block;
@@ -1351,7 +1357,6 @@ display: block;
   border-radius: 4px;
   position: relative;
 }
-
 .button-modal-btn {
   display: flex;
   width: 110px;
@@ -1381,19 +1386,21 @@ display: block;
   height: 20px;
   padding: 14px 10px;
 }
-.plus:hover,
-.minus:hover {
+.button-quantity:hover .plus,
+.button-quantity:hover .minus{
   fill: #000000;
 }
-.plus:focus,
-.minus:focus,
+.button-quantity:focus .plus,
+.button-quantity:focus .minus,
 .button-quantity:focus {
   fill: #000000;
   outline: 3px solid #82B3D3;
+  border-radius: 4px;
   z-index: 1;
 }
-.plus:active,
-.minus:active {
+.button-quantity:active .plus,
+.button-quantity:active .minus,
+.button-quantity:active {
   fill: rgba(117, 97, 87, 0.3);
   outline: none;
 }
