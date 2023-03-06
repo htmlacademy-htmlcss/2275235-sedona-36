@@ -2,14 +2,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/ptsans-400.woff2) format("woff2");
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/ptsans-700.woff2) format("woff2");
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
   font-display: swap;
 }
 html {
@@ -96,6 +96,11 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.lefthand {
+  box-sizing: border-box;
+  width: 100px;
+  font-family: inherit;
+}
 .lefthand::before {
   content: "";
   position: absolute;
@@ -176,7 +181,7 @@ body {
 }
 /*приемущества*/
 .remake {
-  width: 620px;
+  min-width: 620px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 69px;
@@ -188,7 +193,7 @@ body {
   text-transform: uppercase;
 }
 .gray {
-  width: 651px;
+  min-width: 651px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 90px;
@@ -207,7 +212,7 @@ body {
 }
 .advantages-item {
   width: 400px;
-  min-height: 385px;
+  height: 385px;
 }
 .advantages-description {
   margin: 0;
