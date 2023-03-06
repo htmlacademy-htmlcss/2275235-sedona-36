@@ -1158,6 +1158,9 @@ left: 214.5px;
 }
 .btn {
   font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-email-btn {
   width: 232px;
