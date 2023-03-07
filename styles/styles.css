@@ -1216,9 +1216,9 @@ left: 207px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-container-close {
+/*.modal-container-close {
   display: none;
-}
+}*/
 .modal {
   position: relative;
   margin: auto;
@@ -1318,13 +1318,9 @@ left: 207px;
   display: grid;
   grid-column: 4/5;
   position: relative;
-}
-.label-children {
-  display: grid;
   grid-template-columns: 49px 26px;
   gap: 10px;
   align-items: center;
-
 }
 .kids {
   display: grid;
