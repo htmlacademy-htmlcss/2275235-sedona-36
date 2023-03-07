@@ -1321,9 +1321,6 @@ left: 207px;
   grid-template-columns: 49px 26px;
   gap: 10px;
   align-items: center;
-}
-.kids {
-  display: grid;
   box-sizing: border-box;
   font-size: 20px;
   line-height: 24px;
@@ -1346,7 +1343,7 @@ left: 207px;
   background-color: #83B3D3;
 }
 .tooltip-text {
-  padding: 20px 18px 18px 24px;
+  padding: 20px 18px 12px 24px;
   background-color: #333333;
   color: #ffffff;
   font-size: 16px;
