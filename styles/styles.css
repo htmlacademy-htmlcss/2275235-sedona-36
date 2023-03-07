@@ -1216,9 +1216,9 @@ left: 207px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/*.modal-container-close {
+.modal-container-close {
   display: none;
-}*/
+}
 .modal {
   position: relative;
   margin: auto;
@@ -1374,7 +1374,7 @@ left: 207px;
 }
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
-display: block;
+  display: block;
 }
 .field-date {
   display: block;
