@@ -41,12 +41,14 @@ body {
   width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   min-height: 100%;
 }
 /*навигация*/
 .page-header {
   display: flex;
+  flex-wrap: wrap;
   height: 64px;
 }
 .logo {
@@ -62,6 +64,7 @@ body {
 .navigation-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   min-width: 339px;
@@ -268,6 +271,7 @@ body {
 }
 .turquoise-advantages-item {
   display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   background-color: #82B3D3;
 }
@@ -309,6 +313,7 @@ body {
 /*особености*/
 .features {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -424,6 +429,7 @@ body {
 }
 .subscribe-form {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
@@ -479,6 +485,7 @@ body {
 /*подвал*/
 .page-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 1200px;
   height: 120px;
@@ -488,6 +495,7 @@ body {
 }
 .footer-socials-list {
   display: flex;
+  flex-wrap: wrap;
   width: 142px;
   list-style: none;
   margin-left: 70px;
@@ -520,6 +528,7 @@ body {
 }
 .footer-contacts {
   display: flex;
+  flex-wrap: wrap;
   background-color: #ffffff;
   color: #000000;
   margin-top: 40px;
@@ -551,6 +560,7 @@ body {
 }
 .footer-logo {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 115px;
   margin-right: 70px;
@@ -597,6 +607,7 @@ body {
 }
 .accomodations-filter {
   display: flex;
+  flex-wrap: wrap;
 }
 .accomodation-filter-list {
   list-style: none;
@@ -776,7 +787,6 @@ body {
   border-radius: 4px;
   font-family: "PT Sans";
   width: 191px;
-
 }
 .accomodation-btn-reset:hover {
   background-color: transparent;
@@ -795,6 +805,7 @@ body {
 /* параметры */
 .range-wrapper-inputs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 32px;
   margin-bottom: 44px;
@@ -835,6 +846,7 @@ body {
 .range-bar {
   border: 2px solid #ffffff;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .rangle-toggle {
@@ -1108,6 +1120,7 @@ left: 207px;
 }
 .pagination-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 78px;
   margin-bottom: 60px;
@@ -1116,7 +1129,7 @@ left: 207px;
 }
 .pagination-item {
   width: 60px;
-  height: 60px;
+  min-height: 60px;
   text-align: center;
   list-style: none;
 }
@@ -1131,7 +1144,7 @@ left: 207px;
   border-radius: 4px;
   text-decoration: none;
   padding: 11px 23px;
-  height: 60px;
+  min-height: 60px;
 }
 .pagination-link:hover,
 .pagination-link:focus  {
@@ -1192,6 +1205,7 @@ left: 207px;
 }
 .subscribe-form {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
@@ -1201,6 +1215,7 @@ left: 207px;
 .btn {
   font-family: "PT Sans", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -1276,6 +1291,7 @@ left: 207px;
 }
 .label-field {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 12px;
   grid-column: 1/2;
   font-size: 20px;
