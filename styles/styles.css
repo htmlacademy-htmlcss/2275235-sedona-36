@@ -609,7 +609,6 @@ body {
 }
 .accomodations-filter {
   display: flex;
-  flex-wrap: wrap;
 }
 .accomodation-filter-list {
   list-style: none;
@@ -1232,10 +1231,9 @@ left: 207px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-/*
 .modal-container-close {
   display: none;
-}*/
+}
 .modal {
   position: relative;
   margin: auto;
