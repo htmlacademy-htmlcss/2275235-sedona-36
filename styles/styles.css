@@ -774,7 +774,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #fff;
-  height: 412px;
+  min-height: 412px;
 }
 
 .inner-header-title {
@@ -1137,7 +1137,7 @@ left: 207px;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1060px;
-  height: 49px;
+  min-height: 49px;
   margin: 50px 70px 40px;
 }
 
