@@ -1138,13 +1138,11 @@ left: 207px;
           justify-content: space-between;
   width: 1060px;
   min-height: 49px;
-  margin: 50px 70px 40px;
+  margin: 52px 70px 40px;
 }
 
 .search-result .button-cards {
-  width: 48px;
   height: 44px;
-  margin-right: 8px;
 }
 
 .search-result .button-cards:last-child {
@@ -1171,8 +1169,7 @@ left: 207px;
   border: 2px solid #e5e5e5;
   background-image: url("../images/icons/arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
-  margin-right: 70px;
+  background-position: right 19px center;
   width: 310px;
   border-radius: 4px;
   padding: 12px 19px;
@@ -1196,13 +1193,20 @@ left: 207px;
   border-color: rgb(0 0 0 / 30%);
   color: rgb(0 0 0 / 30%);
 }
-
+.container-cards {
+  width: 160px;
+  display: grid;
+  grid-template-columns: 48px 48px 48px;
+  gap: 8px;
+  margin-left: 70px;
+}
 .tile {
   background-image: url("../images/icons/tile.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid rgb(0 0 0 / 100%);
   border-radius: 4px;
+  grid-column: 1/2;
 }
 
 .tile:hover,
@@ -1226,6 +1230,7 @@ left: 207px;
   background-position: center;
   border: 2px solid rgb(229 229 229 / 100%);
   border-radius: 4px;
+  grid-column: 2/3;
 }
 
 .list {
@@ -1234,6 +1239,7 @@ left: 207px;
   background-position: center;
   border: 2px solid rgb(229 229 229 / 100%);
   border-radius: 4px;
+  grid-column: 3/4;
 }
 
 /* список гостиниц */
