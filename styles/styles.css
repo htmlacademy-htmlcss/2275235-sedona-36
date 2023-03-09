@@ -286,7 +286,7 @@ body {
 
 .advantages-item {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-description {
@@ -496,7 +496,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #82B3D3;
-  height: 415px;
+  min-height: 415px;
   text-align: center;
 }
 
@@ -1535,7 +1535,7 @@ left: 207px;
 /* подписка */
 .main-subscribe {
   background-color: #fff;
-  height: 415px;
+  min-height: 415px;
   text-align: center;
 
 }
