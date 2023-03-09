@@ -50,17 +50,20 @@ body {
 .page-header {
   display: flex;
   flex-wrap: wrap;
-  height: 64px;
+  min-height: 64px;
+  position: relative;
 }
 .logo {
   cursor: pointer;
   margin-left: 70px;
   margin-right: 28px;
-  position: relative;
+  position: absolute;
+  z-index: 1;
 }
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  width: 1200px;
 }
 .navigation-list {
   list-style: none;
@@ -68,12 +71,19 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  min-width: 339px;
-  height: 64px;
+  width: 339px;
+  margin-left: 238px;
+  min-height: 64px;
 }
 .navigation-user {
-  margin-left: 285px;
-  min-width: 268px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 70px;
 }
 .navigation-user .navigation-items:nth-child(1) .navigation-link {
   background-image: url("../images/icons/search.svg");
@@ -104,7 +114,7 @@ body {
 }
 .lefthand {
   box-sizing: border-box;
-  width: 100px;
+  min-width: 100px;
   font-family: inherit;
 }
 .lefthand::before {
@@ -115,14 +125,14 @@ body {
   bottom: -1px;
   border-bottom: 2px solid #756257;
 }
-.navigation-items {
+.navigation-like {
   position: relative;
 }
 .navigation-like::before {
   content: "12";
   position: absolute;
   padding: 5px;
-  bottom: 32px;
+  top: 11px;
   right: 4px;
   background-color: #7DB54F;
   border-radius: 50%;
@@ -230,6 +240,7 @@ body {
   margin: 102px 85px;
 }
 .center-advantages-description {
+  min-width: 232px;
   padding-left: 85px;
   padding-right: 85px;
   padding-bottom: 112.5px;
@@ -490,7 +501,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1200px;
-  height: 120px;
   background-color: #ffffff;
   color: #000000;
   list-style: none;
@@ -1500,4 +1510,20 @@ left: 207px;
 .big-quantity::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+.quantity::-webkit-outer-spin-button,
+.quantity::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.quantity {
+  -moz-appearance: textfield;
+}
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.range-input {
+  -moz-appearance: textfield;
 }
