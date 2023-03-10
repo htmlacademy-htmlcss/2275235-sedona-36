@@ -521,8 +521,8 @@ body {
 
 .box:focus {
   background-color: rgb(230 230 230 / 100%);
-  border: 3px solid rgb(131 179 211 / 100%);
-  outline: none;
+  outline: 3px solid rgb(131 179 211 / 100%);
+  border: none;
 }
 
 .box:active {
