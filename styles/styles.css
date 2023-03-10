@@ -523,11 +523,6 @@ body {
   border: none;
 }
 
-.box:active {
-  background-color: rgb(242 242 242 / 100%);
-  border: 2px solid rgb(0 0 0 / 100%);
-}
-
 .box:focus:not(:placeholder-shown) {
   border: 2px solid #000;
   background-color: #F2F2F2;
