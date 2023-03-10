@@ -441,16 +441,16 @@ body {
 }
 
 .edges-features-item:nth-child(1) {
-  background-image: url("../images/icons/Advantage-icon.svg");
+  background-image: url("../images/icons/advantage-icon.svg");
   background-color: rgb(131 179 211 / 12%);
 }
 
 .food-features-item {
-  background-image: url("../images/icons/Advantage-icon1.svg");
+  background-image: url("../images/icons/advantage-icon1.svg");
 }
 
 .edges-features-item:nth-child(3) {
-  background-image: url("../images/icons/Advantage-icon-2.svg");
+  background-image: url("../images/icons/advantage-icon-2.svg");
   background-color: rgb(131 179 211 / 12%);
 }
 
