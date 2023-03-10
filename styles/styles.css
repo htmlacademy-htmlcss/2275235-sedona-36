@@ -509,6 +509,8 @@ body {
   flex-flow: row wrap;
           flex-flow: row wrap;
   justify-content: center;
+  margin: 0;
+  padding-bottom: 104px;
 }
 
 .box {
@@ -581,7 +583,7 @@ body {
 
 .button-email-btn {
   width: 232px;
-  height: 52px;
+  min-height: 52px;
   padding: 8px 50px;
   border: none;
   border-radius: 0 4px 4px 0;
