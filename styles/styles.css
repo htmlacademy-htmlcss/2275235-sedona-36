@@ -64,12 +64,20 @@ body {
   position: relative;
 }
 
-.logo {
-  cursor: pointer;
+.logo, .logo-back {
   margin-left: 70px;
   margin-right: 28px;
   position: absolute;
   z-index: 1;
+}
+
+.logo-back:hover,
+.logo-back:focus {
+  opacity: 0.6;
+}
+
+.logo-back:active {
+  opacity: 0.3;
 }
 
 .navigation {
@@ -78,6 +86,30 @@ body {
   flex-wrap: wrap;
       flex-wrap: wrap;
   width: 1200px;
+}
+
+.navigation-link:not(.lefthand):hover,
+.navigation-link:not(.lefthand):focus {
+  opacity: 0.6;
+}
+
+.navigation-link:not(.lefthand):active {
+  opacity: 0.3;
+}
+
+.navigation-search:hover,
+.navigation-like:hover {
+  opacity: 0.6;
+}
+
+.navigation-search:focus,
+.navigation-like:focus {
+  opacity: 0.6;
+}
+
+.navigation-search:active,
+.navigation-like:active {
+  opacity: 0.3;
 }
 
 .navigation-list {
@@ -107,7 +139,7 @@ body {
   margin-right: 70px;
 }
 
-.navigation-user .navigation-items:nth-child(1) .navigation-link {
+.navigation-user .navigation-items:nth-child(1) {
   background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -116,7 +148,7 @@ body {
   padding: 22px 12px;
 }
 
-.navigation-user .navigation-items:nth-child(2) .navigation-link {
+.navigation-user .navigation-items:nth-child(2) {
   background-image: url("../images/icons/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -142,6 +174,7 @@ body {
           box-sizing: border-box;
   min-width: 100px;
   font-family: inherit;
+  cursor: default;
 }
 
 .lefthand::before {

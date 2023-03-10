@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" href="../2275235-sedona-36/images/icons/favicon-32x32.png">
+    <link rel="icon" href="favicon.ico"
+    <link rel="icon" type="imgage/png" sizes="32x32" href="images/favicon-32x32.png">
   </head>
   <body>
     <div class="content">
       <header class="page-header">
-         <a href="index.html"><img class="logo" src="images/logos/logo.svg" width="140" height="70" alt="Логотип Города Седона."></a>
+         <a href="index.html"><img class="logo-back" src="images/logos/logo.svg" width="140" height="70" alt="Логотип Города Седона."></a>
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-items">
@@ -256,7 +257,8 @@
             <h2 class="main-subscribe-caption"> Подпишитесь на рассылку</h2>
             <p class="main-subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="Ваш e-mail">
+              <label class="visually-hidden" for="email-field">email</label>
+              <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="Ваш e-mail" required>
               <button class="button-email-btn btn" type="submit"><span class="email-btn-text">Подписаться</span></button>
             </form>
           </section>
