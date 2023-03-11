@@ -229,10 +229,6 @@ body {
   background-color: rgb(117 97 87 / 100%);
 }
 
-.btn:disabled {
-  background-color: rgb(229 229 229 / 100%);
-}
-
 /* меню */
 .main-container {
   flex-grow: 1;
@@ -661,9 +657,13 @@ body {
 }
 
 .button-email-btn:disabled,
-.accomodation-btn:disabled,
-.button:disabled {
-  background-color: rgb(229 229 229 / 100%);
+.accomodation-btn:disabled {
+  background-color: #E5E5E5;
+}
+
+.accomodation-btn-reset:disabled {
+  background-color: transparent;
+  opacity: 0.1;
 }
 
 /* подвал */
@@ -1039,8 +1039,7 @@ body {
   color: #fff;
 }
 
-.accomodation-btn-reset:active,
-.accomodation-btn-reset:disabled {
+.accomodation-btn-reset:active{
   border-radius: 4px;
   color: rgb(255 255 255 / 100%);
 }
@@ -1382,10 +1381,6 @@ left: 207px;
   background-color: rgb(125 181 79 / 100%);
 }
 
-.button-pressed:disabled {
-  background-color: rgb(229 229 229 / 100%);
-}
-
 .rating-text {
   font-size: 16px;
   line-height: 20px;
@@ -1639,14 +1634,6 @@ left: 207px;
   opacity: 0.6;
 }
 
-.field-date:input-placeholder {
-  opacity: 0.6;
-}
-
-.field-date:placeholder-shown {
-  opacity: 0.6;
-}
-
 .field-date:hover {
   background-color: rgb(230 230 230 / 100%);
 }
@@ -1657,19 +1644,13 @@ left: 207px;
   border: none;
 }
 
+.field-date:active {
+  background-color: rgb(242 242 242 / 100%);
+  outline: 2px solid rgb(0 0 0 / 100%);
+}
+
 .field-date:invalid {
   color: rgb(248 10 10);
-  background-color: rgb(0 0 0 / 30%);
-  outline: 2px solid rgb(0 0 0 / 30%);
-}
-
-.field-date:focus:not(:placeholder-shown) {
-  outline: 2px solid #000;
-  background-color: #F2F2F2;
-}
-
-.field-date:focus:not(:input-placeholder) {
-  outline: 2px solid #000;
   background-color: #F2F2F2;
 }
 
@@ -1878,6 +1859,10 @@ z-index: 1;
 .button-modal:active {
   color: rgb(255 255 255 / 30%);
   background-color: rgb(104 162 202 / 100%);
+}
+
+.button-modal:disabled {
+  background-color: #E5E5E5;
 }
 
 .children-quantity::-webkit-outer-spin-button,
