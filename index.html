@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" href="../2275235-sedona-36/images/icons/favicon-32x32.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="imgage/png" sizes="32x32" href="images/favicon-32x32.png">
   </head>
   <body>
     <div class="content">
@@ -29,7 +30,7 @@
             </li>
           </ul>
           <ul class="navigation-user">
-            <li class="navigation-items">
+            <li class="navigation-items navigation-search">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">
                 Поиск.
@@ -125,7 +126,8 @@
         <h2 class="subscribe-title"> Подпишитесь на рассылку</h2>
         <p class="subscribe-item">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="Ваш e-mail">
+          <label class="visually-hidden" for="email-field">email</label>
+          <input class="box" type="email" id="email-field" name="subscribe-name" placeholder="Ваш e-mail" required>
           <button class="button-email-btn btn" type="submit"><span class="email-btn-text">Подписаться</span></button>
         </form>
       </section>
@@ -174,10 +176,10 @@
             <h2 class="modal-title">поиск гостиницы в Седоне</h2>
             <form class="modal-reservation" action="https://echo.htmlacademy.ru/" method="post">
                 <label class="label-field" for="field-entry">Дата Заезда:</label>
-                <input class="field-date" id="field-entry" type="text" name="entry" placeholder="27 апреля 2020">
+                <input class="field-date" id="field-entry" type="text" name="entry" placeholder="27 апреля 2020" required>
                 <span class="date-text error">Мы не можем отправить вас в прошлое.</span>
                 <label class="label-field" for="field-exit">Дата Выезда:</label>
-                <input class="field-date" id="field-exit" type="text" name="exit" placeholder="1 сентября 2023">
+                <input class="field-date" id="field-exit" type="text" name="exit" placeholder="1 сентября 2023" required>
                 <span class="date-text">На эти даты есть свободные номера. Пока есть.</span>
                 <label class="label-field" for="big-quantity">Взрослые:</label>
                 <div class="button-modal-btn big">
