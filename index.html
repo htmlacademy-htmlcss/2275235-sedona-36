@@ -5,7 +5,7 @@
     <title>Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="favicon.ico">
-    <link rel="icon" type="imgage/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   </head>
   <body>
     <div class="content">
@@ -176,17 +176,17 @@
             <h2 class="modal-title">поиск гостиницы в Седоне</h2>
             <form class="modal-reservation" action="https://echo.htmlacademy.ru/" method="post">
                 <label class="label-field" for="field-entry">Дата Заезда:</label>
-                <input class="field-date" id="field-entry" type="text" name="entry" placeholder="27 апреля 2020" required>
+                <input class="field-date" id="field-entry" type="text" name="entry" placeholder="дата заезда" required>
                 <span class="date-text error">Мы не можем отправить вас в прошлое.</span>
                 <label class="label-field" for="field-exit">Дата Выезда:</label>
-                <input class="field-date" id="field-exit" type="text" name="exit" placeholder="1 сентября 2023" required>
+                <input class="field-date" id="field-exit" type="text" name="exit" placeholder="дата выезда" required>
                 <span class="date-text">На эти даты есть свободные номера. Пока есть.</span>
                 <label class="label-field" for="big-quantity">Взрослые:</label>
                 <div class="button-modal-btn big">
                   <button class="button-minus button-quantity" type="button">
                     <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="14" height="2" fill="rgba(117, 97, 87, 0.3)" viewBox="0 0 14 2"><path d="M0 0v2h14V0H0Z"/></svg>
                   </button>
-                  <input class="big-quantity quantity" id="big-quantity" type="number" name="big-quantity" value="2">
+                  <input class="big-quantity quantity" id="big-quantity" type="number" name="big-quantity" value="2" required>
                   <button class="button-plus button-quantity" type="button">
                     <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="rgba(117, 97, 87, 0.3)" viewBox="0 0 14 14"><path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z"/></svg>
                   </button>
@@ -204,12 +204,12 @@
                   <button class="button-minus button-quantity" type="button">
                     <svg class=" button-minus minus" xmlns="http://www.w3.org/2000/svg" width="14" height="2" fill="rgba(117, 97, 87, 0.3)" viewBox="0 0 14 2"><path d="M0 0v2h14V0H0Z"/></svg>
                   </button>
-                  <input class="children-quantity quantity" id="children-quantity" type="number" name="children-quantity" value="2">
+                  <input class="children-quantity quantity" id="children-quantity" type="number" name="children-quantity" value="2" required>
                   <button class="button-plus button-quantity" type="button">
                     <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="rgba(117, 97, 87, 0.3)" viewBox="0 0 14 14"><path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z"/></svg>
                   </button>
                 </div>
-                <button type="submit" class="button-modal">Найти</button>
+                <button class="button-modal" type="submit">Найти</button>
             </form>
           </section>
         </div>
